@@ -10,7 +10,7 @@ function App () {
 
   return (
       <>
-  <div>
+  <div style={{marginLeft:"28%" , marginTop:"10%"}}>
       {[...Array(5)].map((star,i) =>{
           const Ratings = i +1 ;
 
@@ -27,7 +27,7 @@ function App () {
  
   <FaStar
   size = {100}
-  color ={Ratings <= rate ? "yellow" : "lavender"}
+  color ={Ratings <= rate ? "yellow" : "black"}
   />
 </label>
  )
